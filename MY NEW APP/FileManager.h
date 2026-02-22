@@ -5,6 +5,8 @@
 #include <fstream>
 #include <sstream>
 #include <type_traits>
+#include <wx/stdpaths.h>
+#include <wx/filename.h>
 #include "wx/wx.h"
 
 using namespace std;
@@ -72,7 +74,31 @@ class FileManager
 //                                         Saving Window Config to a chosen Txt File                                         //
      static void saveWindowConfig(const string& Filename){
 
-        ofstream outfile(Filename, ios::trunc);
+        
+         
+         wxString appDataDir = wxStandardPaths::Get().GetUserDataDir();
+
+         
+         wxString configFolder = appDataDir + wxFileName::GetPathSeparator() + "configs";
+
+        
+         
+         if (!wxFileName::DirExists(configFolder)) {
+            
+             wxFileName::Mkdir(configFolder, wxS_DIR_DEFAULT, wxPATH_MKDIR_FULL);
+        
+         
+         }
+
+        
+          wxString finalPath = configFolder + wxFileName::GetPathSeparator() + "App_Config.txt";
+         
+        
+         
+
+         
+       
+         ofstream outfile(finalPath.ToStdString(), ios::trunc);
 
         if (outfile.is_open()) {
             
@@ -92,7 +118,7 @@ class FileManager
 
         }
         else {
-		 wxLogDebug("Error opening file in saveWindowConfig");
+		 wxLogDebug("Error opening file in saveWindowConfig" + finalPath);
 		}
         
         
@@ -136,26 +162,50 @@ class FileManager
                                                      // Uploading Window Config from a chosen Txt File
     
     static void UploadWindowConfig(const string& Filename,WindowConfig& ConfigRef) {
-    
-    GetDataUsingKey("WindowLength", ConfigRef.WindowLength, Filename);
-	
-    GetDataUsingKey("WindowWidth", ConfigRef.WindowWidth, Filename);
-	
-    GetDataUsingKey("WindowX", ConfigRef.WindowX, Filename);
-	
-    GetDataUsingKey("WindowY", ConfigRef.WindowY, Filename);
 
-	GetDataUsingKey("isMaximized", ConfigRef.isMaximized, Filename);
-    
-    
-     }
+        wxString appDataDir = wxStandardPaths::Get().GetUserDataDir();
+        wxString configFolder = appDataDir + wxFileName::GetPathSeparator() + "configs";
+        wxString finalPath = configFolder + wxFileName::GetPathSeparator() + Filename;
+
+        // 2. Check if the file is there before trying to open it
+        if (!wxFileExists(finalPath)) {
+            // File not found in AppData yet? Just return and use defaults.
+            return;
+        }
+
+        ifstream file(finalPath.ToStdString());
+
+        if (file.is_open()) {
 
 
+            GetDataUsingKey("WindowLength", ConfigRef.WindowLength, finalPath.ToStdString());
+
+            GetDataUsingKey("WindowWidth", ConfigRef.WindowWidth, finalPath.ToStdString());
+
+            GetDataUsingKey("WindowX", ConfigRef.WindowX, finalPath.ToStdString());
+
+            GetDataUsingKey("WindowY", ConfigRef.WindowY, finalPath.ToStdString());
+
+            GetDataUsingKey("isMaximized", ConfigRef.isMaximized, finalPath.ToStdString());
+
+
+            file.close();
+		}
+       
+    
+    }
+
+    
+     
+    
 //==================================================================================================================================
+    
+}; 
 
 
 
-};
+
+
 
 
                                                    
