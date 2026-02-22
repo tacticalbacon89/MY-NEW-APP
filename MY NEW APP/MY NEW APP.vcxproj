@@ -31,9 +31,6 @@
     <ClCompile Include="IntroPanel.cpp" />
     <ClCompile Include="MainFrame.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <Text Include="App_Config.txt" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

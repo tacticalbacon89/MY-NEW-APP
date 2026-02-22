@@ -1,5 +1,0 @@
-WindowLength=1544;
-WindowWidth=722;
-WindowX=246;
-WindowY=-1037;
-isMaximized=false;
