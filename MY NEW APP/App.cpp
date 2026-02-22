@@ -20,6 +20,7 @@ wxIMPLEMENT_APP(App);
 
 
 //test
+// testing changes
 
 //On Initlize make window and set defualt configs or User data from txt
 bool App::OnInit() 
