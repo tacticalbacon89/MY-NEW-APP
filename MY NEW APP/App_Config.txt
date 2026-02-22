@@ -1,5 +1,5 @@
-WindowLength=1385;
-WindowWidth=901;
-WindowX=255;
-WindowY=-982;
+WindowLength=953;
+WindowWidth=644;
+WindowX=246;
+WindowY=-1037;
 isMaximized=false;

@@ -76,20 +76,7 @@ bool App::OnInit()
 	
  
 
-//================================================================================
-//                            USER REQUESTED CLOSING                            //
-	void MainFrame::OnClose(wxCloseEvent & event) {
 
-	 //********************************************************************************//
-	 //                                Saving                                        //
-
-	 FileManager::updateWindowConfig(this, G_WindowConfig);
-
-	 FileManager::saveWindowConfig("App_Config.txt");
-
-
-	 event.Skip();
-	}
 
 //===============================================================================
 //                                   APP EXIT                                    //
