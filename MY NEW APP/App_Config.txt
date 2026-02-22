@@ -1,0 +1,5 @@
+WindowLength=1385;
+WindowWidth=901;
+WindowX=255;
+WindowY=-982;
+isMaximized=false;
