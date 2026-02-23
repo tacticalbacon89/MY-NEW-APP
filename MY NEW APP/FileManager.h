@@ -18,7 +18,7 @@ class FileManager
  
     
     //===============================================================================================================================================   
-                                                        // Scout Fuction to get data from txt
+                                                        // Scout Fuction to spacific key data from .txt
      static void GetDataUsingKey(const string& KeyWord, T& out, const string& Filename){
         
          // Open the file for reading
@@ -71,15 +71,15 @@ class FileManager
      file.close();
      }
  //=============================================================================================================================
-//                                         Saving Window Config to a chosen Txt File                                         //
+//                                         Saving Window Config to Txt File at AppData                                         //
      static void saveWindowConfig(const string& Filename){
 
         
          
          wxString appDataDir = wxStandardPaths::Get().GetUserDataDir();
+         wxString configFolder = appDataDir + wxFileName::GetPathSeparator() + "configs";
 
          
-         wxString configFolder = appDataDir + wxFileName::GetPathSeparator() + "configs";
 
         
          
@@ -126,7 +126,7 @@ class FileManager
     }
 
   //==============================================================================================================================    
-                                                     // Updating Window Config To Varable
+                                                     // Updating txt Window Config To global Varables
     static void updateWindowConfig(wxWindow* win, WindowConfig& G_WindowConfig) {
        if (win) {
 
@@ -159,7 +159,7 @@ class FileManager
 
 
   //========================================================================================================================================
-                                                     // Uploading Window Config from a chosen Txt File
+                                                     // Uploading Window Config from Txt File in appdata path
     
     static void UploadWindowConfig(const string& Filename,WindowConfig& ConfigRef) {
 

@@ -19,10 +19,7 @@ wxIMPLEMENT_APP(App);
 
 
 
-//test
-// testing changes
 
-//On Initlize make window and set defualt configs or User data from txt
 bool App::OnInit() 
 {
 	
@@ -35,7 +32,7 @@ bool App::OnInit()
 	
  MainAppFrame->SetClientSize(G_WindowConfig.WindowLength, G_WindowConfig.WindowWidth);
 	
-	// 1. Create the point from our saved data
+	
  wxPoint savedPos(G_WindowConfig.WindowX, G_WindowConfig.WindowY);
 
 	// ****************************************************************************//
