@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="MY NEW APP/MY NEW APP.vcxproj" Id="d03732b3-faca-413f-a0a5-ef439545c307" />
+  <Project Path="EveAware/EveAware.vcxproj" Id="d03732b3-faca-413f-a0a5-ef439545c307" />
 </Solution>
