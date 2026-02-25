@@ -19,17 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="App.h" />
-    <ClInclude Include="ConfigGlobals.h" />
-    <ClInclude Include="FileManager.h" />
-    <ClInclude Include="IntroPanel.h" />
-    <ClInclude Include="MainFrame.h" />
+    <ClInclude Include="EveAware\Source files\App.h" />
+    <ClInclude Include="EveAware\Source files\ConfigGlobals.h" />
+    <ClInclude Include="EveAware\Source files\FileManager.h" />
+    <ClInclude Include="EveAware\Source files\IntroPanel.h" />
+    <ClInclude Include="EveAware\Source files\MainFrame.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="App.cpp" />
-    <ClCompile Include="ConfigGlobals.cpp" />
-    <ClCompile Include="IntroPanel.cpp" />
-    <ClCompile Include="MainFrame.cpp" />
+    <ClCompile Include="EveAware\Source files\App.cpp" />
+    <ClCompile Include="EveAware\Source files\ConfigGlobals.cpp" />
+    <ClCompile Include="EveAware\Source files\IntroPanel.cpp" />
+    <ClCompile Include="EveAware\Source files\MainFrame.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
