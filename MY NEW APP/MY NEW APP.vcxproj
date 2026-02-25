@@ -19,17 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="EveAware\Source files\App.h" />
-    <ClInclude Include="EveAware\Source files\ConfigGlobals.h" />
-    <ClInclude Include="EveAware\Source files\FileManager.h" />
-    <ClInclude Include="EveAware\Source files\IntroPanel.h" />
-    <ClInclude Include="EveAware\Source files\MainFrame.h" />
+    <ClInclude Include="Source files\App.h" />
+    <ClInclude Include="Source files\ConfigGlobals.h" />
+    <ClInclude Include="Source files\FileManager.h" />
+    <ClInclude Include="Source files\IntroPanel.h" />
+    <ClInclude Include="Source files\MainFrame.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="EveAware\Source files\App.cpp" />
-    <ClCompile Include="EveAware\Source files\ConfigGlobals.cpp" />
-    <ClCompile Include="EveAware\Source files\IntroPanel.cpp" />
-    <ClCompile Include="EveAware\Source files\MainFrame.cpp" />
+    <ClCompile Include="Source files\App.cpp" />
+    <ClCompile Include="Source files\ConfigGlobals.cpp" />
+    <ClCompile Include="Source files\IntroPanel.cpp" />
+    <ClCompile Include="Source files\MainFrame.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
@@ -37,6 +37,7 @@
     <ProjectGuid>{d03732b3-faca-413f-a0a5-ef439545c307}</ProjectGuid>
     <RootNamespace>MYNEWAPP</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>EveAware</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

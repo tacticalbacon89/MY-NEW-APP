@@ -18,33 +18,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="EveAware\Source files\App.h">
+    <ClInclude Include="Source files\App.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="EveAware\Source files\ConfigGlobals.h">
+    <ClInclude Include="Source files\ConfigGlobals.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="EveAware\Source files\FileManager.h">
+    <ClInclude Include="Source files\FileManager.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="EveAware\Source files\IntroPanel.h">
+    <ClInclude Include="Source files\IntroPanel.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="EveAware\Source files\MainFrame.h">
+    <ClInclude Include="Source files\MainFrame.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="EveAware\Source files\App.cpp">
+    <ClCompile Include="Source files\App.cpp">
       <Filter>App\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="EveAware\Source files\ConfigGlobals.cpp">
+    <ClCompile Include="Source files\ConfigGlobals.cpp">
       <Filter>App\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="EveAware\Source files\IntroPanel.cpp">
+    <ClCompile Include="Source files\IntroPanel.cpp">
       <Filter>App\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="EveAware\Source files\MainFrame.cpp">
+    <ClCompile Include="Source files\MainFrame.cpp">
       <Filter>App\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
