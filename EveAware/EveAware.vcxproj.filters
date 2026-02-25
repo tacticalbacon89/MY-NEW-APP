@@ -48,4 +48,7 @@
       <Filter>App\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="UI\MainPanel.wxg" />
+  </ItemGroup>
 </Project>

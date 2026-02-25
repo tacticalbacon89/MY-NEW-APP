@@ -31,6 +31,9 @@
     <ClCompile Include="Source files\IntroPanel.cpp" />
     <ClCompile Include="Source files\MainFrame.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="UI\MainPanel.wxg" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
