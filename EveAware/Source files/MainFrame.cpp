@@ -4,21 +4,28 @@
 #include <fstream>
 #include "ConfigGlobals.h"
 #include "FileManager.h"
+#include "PanelManager.h"
 
 
 MainFrame::MainFrame(const wxString& title) : wxFrame(nullptr, wxID_ANY, title)
 {
+	auto* sizer = new wxBoxSizer(wxVERTICAL);
+
+    m_PanelManager = std::make_unique<PanelManager>(this, sizer);
+	
+   SetSizer(sizer);
+	
+   m_PanelManager->Switchto(PanelID::Intro);
+
 	this->Bind(wxEVT_CLOSE_WINDOW, &MainFrame::OnClose, this);
 
-
-
-    m_IntroPanel = new IntroPanel(this);
-
-    // The Frame organizes its own "Room"
-    wxBoxSizer* sizer = new wxBoxSizer(wxVERTICAL);
-    sizer->Add(m_IntroPanel, 1, wxEXPAND);
-    SetSizer(sizer);
 }
+
+	
+
+	
+
+    
 
 //================================================================================
 //                            USER REQUESTED CLOSING                            //

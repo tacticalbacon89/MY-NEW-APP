@@ -1,6 +1,7 @@
 #pragma once
 #include <wx/wx.h>
-#include "IntroPanel.h"
+#include <memory>
+#include "PanelManager.h"
 
 class MainFrame : public wxFrame
 {
@@ -8,7 +9,9 @@ class MainFrame : public wxFrame
 private:
 //================================================================================================================================//
 //                                                         Private Varables                                                   //
-	IntroPanel* m_IntroPanel;
+	std::unique_ptr<PanelManager> m_PanelManager;
+
+	
 
 
 

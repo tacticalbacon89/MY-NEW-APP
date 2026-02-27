@@ -27,11 +27,17 @@
     <ClInclude Include="Source files\FileManager.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source files\IntroPanel.h">
-      <Filter>App\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Source files\MainFrame.h">
       <Filter>App\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source files\PanelManager.h">
+      <Filter>App\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source files\PanelDef.h">
+      <Filter>App\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source files\IntroPanel.h">
+      <Filter>UI</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -41,14 +47,16 @@
     <ClCompile Include="Source files\ConfigGlobals.cpp">
       <Filter>App\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source files\IntroPanel.cpp">
-      <Filter>App\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source files\MainFrame.cpp">
       <Filter>App\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Source files\IntroPanel.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="UI\MainPanel.wxg" />
+    <None Include="UI\IntroPanel.wxg">
+      <Filter>UI</Filter>
+    </None>
   </ItemGroup>
 </Project>

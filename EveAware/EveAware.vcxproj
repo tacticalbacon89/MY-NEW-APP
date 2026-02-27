@@ -24,6 +24,8 @@
     <ClInclude Include="Source files\FileManager.h" />
     <ClInclude Include="Source files\IntroPanel.h" />
     <ClInclude Include="Source files\MainFrame.h" />
+    <ClInclude Include="Source files\PanelDef.h" />
+    <ClInclude Include="Source files\PanelManager.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source files\App.cpp" />
@@ -32,7 +34,7 @@
     <ClCompile Include="Source files\MainFrame.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="UI\MainPanel.wxg" />
+    <None Include="UI\IntroPanel.wxg" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
