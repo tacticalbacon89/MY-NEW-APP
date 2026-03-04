@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GladeGen\delete.h" />
+    <ClInclude Include="GladeGen\IntroPanel_Base.h" />
     <ClInclude Include="Source files\App.h" />
     <ClInclude Include="Source files\ConfigGlobals.h" />
     <ClInclude Include="Source files\FileManager.h" />
@@ -27,12 +27,16 @@
     <ClInclude Include="Source files\MainFrame.h" />
     <ClInclude Include="Source files\PanelDef.h" />
     <ClInclude Include="Source files\PanelManager.h" />
+    <ClInclude Include="WinSettings.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="GladeGen\IntroPanel_Base.cpp" />
     <ClCompile Include="Source files\App.cpp" />
     <ClCompile Include="Source files\ConfigGlobals.cpp" />
     <ClCompile Include="Source files\IntroPanel.cpp" />
     <ClCompile Include="Source files\MainFrame.cpp" />
+    <ClCompile Include="WinEvent.cpp" />
+    <ClCompile Include="WinSettings.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\GladeDesign\IntroPanel_Base.wxg" />
