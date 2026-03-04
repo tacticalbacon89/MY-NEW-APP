@@ -5,4 +5,11 @@
 class IntroPanel : public IntroPanel_Base
 {
 public:
-	
+
+
+
+
+
+
+
+};

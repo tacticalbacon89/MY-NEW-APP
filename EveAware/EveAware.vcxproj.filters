@@ -56,7 +56,7 @@
     <ClCompile Include="GladeGen\IntroPanel_Base.cpp">
       <Filter>App</Filter>
     </ClCompile>
-    <ClCompile Include="Source\UI Panels\IntoPanel.cpp">
+    <ClCompile Include="Source\UI Panels\IntroPanel.cpp">
       <Filter>App</Filter>
     </ClCompile>
   </ItemGroup>
