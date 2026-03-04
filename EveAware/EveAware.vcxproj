@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GladeGen\delete.h" />
     <ClInclude Include="Source files\App.h" />
     <ClInclude Include="Source files\ConfigGlobals.h" />
     <ClInclude Include="Source files\FileManager.h" />
@@ -34,7 +35,7 @@
     <ClCompile Include="Source files\MainFrame.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="UI\IntroPanel.wxg" />
+    <None Include="Resources\GladeDesign\IntroPanel_Base.wxg" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>

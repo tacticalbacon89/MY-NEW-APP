@@ -39,6 +39,9 @@
     <ClInclude Include="Source files\IntroPanel.h">
       <Filter>UI</Filter>
     </ClInclude>
+    <ClInclude Include="GladeGen\delete.h">
+      <Filter>App\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source files\App.cpp">
@@ -55,8 +58,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="UI\IntroPanel.wxg">
-      <Filter>UI</Filter>
-    </None>
+    <None Include="Resources\GladeDesign\IntroPanel_Base.wxg" />
   </ItemGroup>
 </Project>

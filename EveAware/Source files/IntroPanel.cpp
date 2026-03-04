@@ -25,6 +25,8 @@ IntroPanel::IntroPanel(wxWindow* parent) : wxPanel(parent, wxID_ANY)
     
     
     this->SetSizer(sizer);
+    
+
 }
 
 
