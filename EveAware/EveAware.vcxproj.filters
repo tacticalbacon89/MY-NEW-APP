@@ -18,26 +18,23 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Source files\App.h">
+    <ClInclude Include="Source\App.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source files\ConfigGlobals.h">
+    <ClInclude Include="Source\Helpers\ConfigGlobals.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source files\FileManager.h">
+    <ClInclude Include="Source\Managers\FileManager.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source files\MainFrame.h">
+    <ClInclude Include="Source\UI Frame\MainFrame.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source files\PanelManager.h">
+    <ClInclude Include="Source\Managers\PanelManager.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source files\PanelDef.h">
+    <ClInclude Include="Source\Helpers\PanelDef.h">
       <Filter>App\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source files\IntroPanel.h">
-      <Filter>UI</Filter>
     </ClInclude>
     <ClInclude Include="GladeGen\IntroPanel_Base.h">
       <Filter>App\Header Files</Filter>
@@ -45,19 +42,19 @@
     <ClInclude Include="WinSettings.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Source\UI Panels\IntroPanel.h">
+      <Filter>App\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source files\App.cpp">
+    <ClCompile Include="Source\App.cpp">
       <Filter>App\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source files\ConfigGlobals.cpp">
+    <ClCompile Include="Source\Helpers\ConfigGlobals.cpp">
       <Filter>App\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source files\MainFrame.cpp">
+    <ClCompile Include="Source\UI Frame\MainFrame.cpp">
       <Filter>App\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source files\IntroPanel.cpp">
-      <Filter>UI</Filter>
     </ClCompile>
     <ClCompile Include="GladeGen\IntroPanel_Base.cpp">
       <Filter>App</Filter>
@@ -66,6 +63,9 @@
       <Filter>App</Filter>
     </ClCompile>
     <ClCompile Include="WinSettings.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI Panels\IntoPanel.cpp">
       <Filter>App</Filter>
     </ClCompile>
   </ItemGroup>

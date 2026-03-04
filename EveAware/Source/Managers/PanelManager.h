@@ -2,11 +2,11 @@
 
 #include <wx/wx.h>
 #include <memory>
-#include "PanelDef.h"
+#include "Helpers\PanelDef.h"
 
 
 //Panels
-#include "IntroPanel.h"//test
+
 
 
 
