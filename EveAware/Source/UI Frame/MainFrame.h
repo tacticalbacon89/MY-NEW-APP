@@ -1,7 +1,7 @@
 #pragma once
 #include <wx/wx.h>
 #include <memory>
-#include "PanelManager.h"
+#include "Managers\PanelManager.h"
 
 class MainFrame : public wxFrame
 {

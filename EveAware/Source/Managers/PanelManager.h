@@ -6,7 +6,7 @@
 
 
 //Panels
-
+#include "..\..\GladeGen\IntroPanel_Base.h"
 
 
 
@@ -37,7 +37,7 @@ public:
 	    case PanelID::None:
 			break;
 		case PanelID::Intro:
-			m_ActivePanel = std::make_unique<IntroPanel>(m_Parent);
+			m_ActivePanel = std::make_unique<IntroPanel_Base>(m_Parent);
 			break;
 			default:
 		    break;

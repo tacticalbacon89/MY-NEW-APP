@@ -8,6 +8,7 @@
 #include <wx/stdpaths.h>
 #include <wx/filename.h>
 #include "wx/wx.h"
+#include "Helpers\ConfigGlobals.h"
 
 using namespace std;
 

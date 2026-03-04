@@ -2,9 +2,9 @@
 #include <wx/wx.h>
 #include <iostream>
 #include <fstream>
-#include "ConfigGlobals.h"
-#include "FileManager.h"
-#include "PanelManager.h"
+#include "Helpers\ConfigGlobals.h"
+#include "Managers\FileManager.h"
+#include "Managers\PanelManager.h"
 
 
 MainFrame::MainFrame(const wxString& title) : wxFrame(nullptr, wxID_ANY, title)
