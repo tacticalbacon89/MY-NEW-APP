@@ -5,15 +5,14 @@
 
 
 
-
-    static void GetStartedClick(wxCommandEvent& event) {
+    void IntroPanel:: GetStartedClick(wxCommandEvent& event) {
 	
 	wxLogMessage("Get Started Clicked");
 	
 	}
 
 
-	static void TutorialClick(wxCommandEvent& event) {
+	void IntroPanel:: TutorialClick(wxCommandEvent& event) {
 	
 		wxLogMessage("Tutorial Clicked");
 	

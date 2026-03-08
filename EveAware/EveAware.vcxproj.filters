@@ -36,10 +36,10 @@
     <ClInclude Include="Source\Helpers\PanelDef.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GladeGen\IntroPanel_Base.h">
+    <ClInclude Include="Source\UI Panels\IntroPanel.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\UI Panels\IntroPanel.h">
+    <ClInclude Include="GladeGen\IntroPanel_Base.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -53,10 +53,10 @@
     <ClCompile Include="Source\UI Frame\MainFrame.cpp">
       <Filter>App\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GladeGen\IntroPanel_Base.cpp">
+    <ClCompile Include="Source\UI Panels\IntroPanel.cpp">
       <Filter>App</Filter>
     </ClCompile>
-    <ClCompile Include="Source\UI Panels\IntroPanel.cpp">
+    <ClCompile Include="GladeGen\IntroPanel_Base.cpp">
       <Filter>App</Filter>
     </ClCompile>
   </ItemGroup>
