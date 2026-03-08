@@ -3,7 +3,11 @@
 
 
 
-
+IntroPanel::IntroPanel(wxWindow* parent, wxWindowID id)
+	: IntroPanel_Base(parent, id)
+{
+	// Any extra setup goes here
+}
 
     void IntroPanel:: GetStartedClick(wxCommandEvent& event) {
 	
