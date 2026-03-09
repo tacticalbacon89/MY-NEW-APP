@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GladeGen\HomePanel_Base.h" />
     <ClInclude Include="GladeGen\IntroPanel_Base.h" />
     <ClInclude Include="Source\App.h" />
     <ClInclude Include="Source\Helpers\ConfigGlobals.h" />
@@ -29,6 +30,7 @@
     <ClInclude Include="Source\Managers\PanelManager.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="GladeGen\HomePanel_Base.cpp" />
     <ClCompile Include="GladeGen\IntroPanel_Base.cpp" />
     <ClCompile Include="Source\App.cpp" />
     <ClCompile Include="Source\Helpers\ConfigGlobals.cpp" />

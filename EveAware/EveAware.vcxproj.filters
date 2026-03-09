@@ -42,6 +42,9 @@
     <ClInclude Include="GladeGen\IntroPanel_Base.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="GladeGen\HomePanel_Base.h">
+      <Filter>App\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\App.cpp">
@@ -57,6 +60,9 @@
       <Filter>App</Filter>
     </ClCompile>
     <ClCompile Include="GladeGen\IntroPanel_Base.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="GladeGen\HomePanel_Base.cpp">
       <Filter>App</Filter>
     </ClCompile>
   </ItemGroup>
