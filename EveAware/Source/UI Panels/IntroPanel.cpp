@@ -1,5 +1,6 @@
 
 #include "IntroPanel.h"
+#include "../Managers/PanelManager.h"
 
 
 

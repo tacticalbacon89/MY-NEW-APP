@@ -36,6 +36,7 @@
     <ClCompile Include="Source\UI Frame\MainFrame.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\GladeDesign\HomePanel_Base.wxg" />
     <None Include="Resources\GladeDesign\IntroPanel_Base.wxg" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

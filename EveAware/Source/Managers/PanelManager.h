@@ -39,6 +39,9 @@ public:
 		case PanelID::Intro:
 			m_ActivePanel = std::make_unique<IntroPanel>(m_Parent);
 			break;
+		case PanelID::Home:
+			m_ActivePanel = std::make_unique<IntroPanel>(m_Parent);
+			break;
 			default:
 		    break;
 		
