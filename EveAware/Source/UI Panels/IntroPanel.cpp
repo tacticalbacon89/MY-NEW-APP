@@ -1,6 +1,12 @@
 
+//Core
+#include <wx/wx.h>
+
+//Panels
 #include "IntroPanel.h"
 #include "../Managers/PanelManager.h"
+#include "../Helpers/PanelDef.h"
+#include "../UI Frame/MainFrame.h"
 
 
 
@@ -12,7 +18,7 @@ IntroPanel::IntroPanel(wxWindow* parent, wxWindowID id)
 
     void IntroPanel:: GetStartedClick(wxCommandEvent& event) {
 	
-	wxLogMessage("Get Started Clicked");
+	PanelManager
 	
 	}
 

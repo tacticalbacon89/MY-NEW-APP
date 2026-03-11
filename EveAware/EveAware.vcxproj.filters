@@ -42,7 +42,10 @@
     <ClInclude Include="GladeGen\IntroPanel_Base.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GladeGen\HomePanel_Base.h">
+    <ClInclude Include="GladeGen\Cal_HomePanel_Base.h">
+      <Filter>App\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI Panels\Cal_HomePanel.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -62,7 +65,10 @@
     <ClCompile Include="GladeGen\IntroPanel_Base.cpp">
       <Filter>App</Filter>
     </ClCompile>
-    <ClCompile Include="GladeGen\HomePanel_Base.cpp">
+    <ClCompile Include="GladeGen\Cal_HomePanel_Base.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI Panels\Cal_HomePanel.cpp">
       <Filter>App</Filter>
     </ClCompile>
   </ItemGroup>

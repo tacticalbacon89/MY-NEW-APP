@@ -7,7 +7,7 @@
 
 //Panels
 #include "..\UI Panels\IntroPanel.h"
-
+#include "..\UI Panels\Cal_HomePanel.h"
 
 
 
@@ -40,7 +40,7 @@ public:
 			m_ActivePanel = std::make_unique<IntroPanel>(m_Parent);
 			break;
 		case PanelID::Home:
-			m_ActivePanel = std::make_unique<IntroPanel>(m_Parent);
+			m_ActivePanel = std::make_unique<Cal_HomePanel>(m_Parent);
 			break;
 			default:
 		    break;
