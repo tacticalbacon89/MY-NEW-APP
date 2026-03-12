@@ -7,11 +7,11 @@
 #include "Managers\PanelManager.h"
 
 
-MainFrame::MainFrame(const wxString& title, PanelManager* m_PanelManager) : wxFrame(nullptr, wxID_ANY, title)
+MainFrame::MainFrame(const wxString& title) : wxFrame(nullptr, wxID_ANY, title)
 {
 	auto* sizer = new wxBoxSizer(wxVERTICAL);
 
-    m_PanelManager = new PanelManager(this, sizer);
+	m_PanelManager = std::make_unique<PanelManager>(this, sizer);
 	
    SetSizer(sizer);
 	

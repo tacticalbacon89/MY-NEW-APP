@@ -9,8 +9,16 @@ class MainFrame : public wxFrame
 
 
 public:
-	MainFrame(const wxString& title, PanelManager* m_PanelManager);
 	
+	PanelManager* GetPanelManager() { return m_PanelManager.get(); }
+	
+	MainFrame(const wxString& title);
+	
+
+    void OnClose(wxCloseEvent& event);
+
+
+private:
 	
 	std::unique_ptr<PanelManager> m_PanelManager;
 	
@@ -20,7 +28,7 @@ public:
 
 
 
-	void OnClose(wxCloseEvent& event);
+	
 
 
 

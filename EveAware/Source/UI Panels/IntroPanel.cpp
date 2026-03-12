@@ -16,11 +16,17 @@ IntroPanel::IntroPanel(wxWindow* parent, wxWindowID id)
 	// Any extra setup goes here
 }
 
-    void IntroPanel:: GetStartedClick(wxCommandEvent& event) {
-	
-	wxLogMessage("Get Started Clicked");
-	
+void IntroPanel::GetStartedClick(wxCommandEvent& event) {
+
+	MainFrame* frame = (MainFrame*)wxTheApp->GetTopWindow();
+
+	if (frame) {
+		PanelManager* m_PanelManager = frame->GetPanelManager();
+
+		m_PanelManager->Switchto(PanelID::Home);
+
 	}
+}
 
 
 	void IntroPanel:: TutorialClick(wxCommandEvent& event) {
