@@ -4,9 +4,9 @@
 
 //Panels
 #include "IntroPanel.h"
-#include "../Managers/PanelManager.h"
-#include "../Helpers/PanelDef.h"
-#include "../UI Frame/MainFrame.h"
+#include "../../Managers/PanelManager.h"
+#include "../../Helpers/PanelDef.h"
+#include "../Frame/MainFrame.h"
 
 
 

@@ -27,7 +27,7 @@
     <ClInclude Include="Source\Managers\FileManager.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\UI Frame\MainFrame.h">
+    <ClInclude Include="Source\UI\Frame\MainFrame.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\Managers\PanelManager.h">
@@ -36,7 +36,7 @@
     <ClInclude Include="Source\Helpers\PanelDef.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\UI Panels\IntroPanel.h">
+    <ClInclude Include="Source\UI\Panels\IntroPanel.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="GladeGen\IntroPanel_Base.h">
@@ -45,7 +45,7 @@
     <ClInclude Include="GladeGen\Cal_HomePanel_Base.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\UI Panels\Cal_HomePanel.h">
+    <ClInclude Include="Source\UI\Panels\Cal_HomePanel.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -56,10 +56,10 @@
     <ClCompile Include="Source\Helpers\ConfigGlobals.cpp">
       <Filter>App\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\UI Frame\MainFrame.cpp">
+    <ClCompile Include="Source\UI\Frame\MainFrame.cpp">
       <Filter>App\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\UI Panels\IntroPanel.cpp">
+    <ClCompile Include="Source\UI\Panels\IntroPanel.cpp">
       <Filter>App</Filter>
     </ClCompile>
     <ClCompile Include="GladeGen\IntroPanel_Base.cpp">
@@ -68,7 +68,7 @@
     <ClCompile Include="GladeGen\Cal_HomePanel_Base.cpp">
       <Filter>App</Filter>
     </ClCompile>
-    <ClCompile Include="Source\UI Panels\Cal_HomePanel.cpp">
+    <ClCompile Include="Source\UI\Panels\Cal_HomePanel.cpp">
       <Filter>App</Filter>
     </ClCompile>
   </ItemGroup>
