@@ -6,18 +6,17 @@
 class MainFrame : public wxFrame
 {
 
-private:
-//================================================================================================================================//
-//                                                         Private Varables                                                   //
-	std::unique_ptr<PanelManager> m_PanelManager;
-
-	
-
-
 
 
 public:
-	MainFrame(const wxString& title);
+	MainFrame(const wxString& title, PanelManager* m_PanelManager);
+	
+	
+	std::unique_ptr<PanelManager> m_PanelManager;
+	
+	
+	
+	
 
 
 

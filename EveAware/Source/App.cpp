@@ -28,7 +28,7 @@ bool App::OnInit()
 	
  FileManager::UploadWindowConfig("App_Config.txt", G_WindowConfig);
 	
- MainAppFrame = new MainFrame("My App");
+ MainAppFrame = new MainFrame("EveAware");
 	
  MainAppFrame->SetClientSize(G_WindowConfig.WindowLength, G_WindowConfig.WindowWidth);
 	
