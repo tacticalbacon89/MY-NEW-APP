@@ -8,11 +8,10 @@
 
 
 
-class Cal_HomePanel : public Cal_HomePanel_Base
-{
-  public:
-	
-	  Cal_HomePanel(wxWindow* parent, wxWindowID id);
+class Cal_HomePanel : public Cal_HomePanel_Base{
+  
+public:
+	 Cal_HomePanel(wxWindow* parent, wxWindowID id = wxID_ANY);
 
 	void SwitchMenu(wxPanel* MenuPanel);
 
@@ -20,6 +19,7 @@ class Cal_HomePanel : public Cal_HomePanel_Base
 
 	
 
+};
 	  
 	  
 	  
@@ -32,5 +32,3 @@ class Cal_HomePanel : public Cal_HomePanel_Base
 
 
 
-
-};

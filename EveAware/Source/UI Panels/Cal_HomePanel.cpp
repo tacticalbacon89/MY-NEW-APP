@@ -3,6 +3,12 @@
 
 
 
+Cal_HomePanel::Cal_HomePanel(wxWindow* parent, wxWindowID id) : Cal_HomePanel_Base(parent, id) {}
+
+
+
+
+
 void Cal_HomePanel::SwitchMenu(wxPanel* MenuPanel) {
 
 	wxSizer* TargetSizer = m_TopMenuPanel->GetSizer();

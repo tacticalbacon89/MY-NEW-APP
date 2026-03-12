@@ -18,7 +18,7 @@ IntroPanel::IntroPanel(wxWindow* parent, wxWindowID id)
 
     void IntroPanel:: GetStartedClick(wxCommandEvent& event) {
 	
-	PanelManager
+	wxLogMessage("Get Started Clicked");
 	
 	}
 

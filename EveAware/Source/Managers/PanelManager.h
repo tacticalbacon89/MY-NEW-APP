@@ -19,7 +19,7 @@ private:
  wxWindow* m_Parent;
  wxSizer* m_Sizer;
  PanelID m_Current = PanelID::None;
- std::unique_ptr<wxPanel> m_ActivePanel;
+ wxPanel* m_ActivePanel = nullptr;
 
 
 public:
@@ -29,18 +29,21 @@ public:
 	
 		if (m_Current == id) return;
 
-		m_ActivePanel.reset();
-		m_Sizer->Clear();
+		if (m_ActivePanel) {
+			m_Sizer->Detach(m_ActivePanel);
+			m_ActivePanel->Destroy();
+			m_ActivePanel=nullptr;
+		}
 
 		switch (id) {
 		
 	    case PanelID::None:
 			break;
 		case PanelID::Intro:
-			m_ActivePanel = std::make_unique<IntroPanel>(m_Parent);
+			m_ActivePanel = new IntroPanel(m_Parent);
 			break;
 		case PanelID::Home:
-			m_ActivePanel = std::make_unique<Cal_HomePanel>(m_Parent);
+			m_ActivePanel = new Cal_HomePanel(m_Parent);
 			break;
 			default:
 		    break;
@@ -52,9 +55,9 @@ public:
 	 m_Current = id;
 
         if (m_ActivePanel) {
-			m_Sizer->Add(m_ActivePanel.get(), 1, wxEXPAND);
-	        m_ActivePanel->Show();
+			m_Sizer->Add(m_ActivePanel, 1, wxEXPAND);
 	        m_Parent->Layout();
+	       
 
 
         }
