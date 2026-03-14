@@ -48,6 +48,9 @@
     <ClInclude Include="Source\UI\Panels\Cal_HomePanel.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Source\UI\Panels\Cal_TopMenu.h">
+      <Filter>App\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\App.cpp">
@@ -69,6 +72,9 @@
       <Filter>App</Filter>
     </ClCompile>
     <ClCompile Include="Source\UI\Panels\Cal_HomePanel.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\Panels\Cal_TopMenu.cpp">
       <Filter>App</Filter>
     </ClCompile>
   </ItemGroup>
