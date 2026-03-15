@@ -13,7 +13,6 @@ class App : public wxApp
 	bool OnInit() override;
 	int OnExit() override;
 	
-	void OnClose(wxCloseEvent& event);
 
 private:
 	MainFrame* MainAppFrame;

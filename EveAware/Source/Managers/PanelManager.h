@@ -1,7 +1,10 @@
 #pragma once
 
+//Core
 #include <wx/wx.h>
 #include <memory>
+
+//Enums
 #include "Helpers\Enum_CorePanel.h"
 
 
@@ -16,8 +19,10 @@
 class PanelManager{
 
 private:
- wxWindow* m_Parent;
- wxSizer* m_Sizer;
+//Constructor Variables	
+ wxWindow* m_Parent = nullptr;
+ wxSizer* m_Sizer = nullptr;
+ //Private Variables
  PanelID m_CurrentID = PanelID::None;
  wxPanel* m_ActiveCorePanel = nullptr;
 
