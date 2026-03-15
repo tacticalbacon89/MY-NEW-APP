@@ -5,7 +5,7 @@
 //Panels
 #include "IntroPanel.h"
 #include "../../Managers/PanelManager.h"
-#include "../../Helpers/PanelDef.h"
+#include "../../Helpers/Enum_CorePanel.h"
 #include "../Frame/MainFrame.h"
 
 
@@ -23,7 +23,7 @@ void IntroPanel::GetStartedClick(wxCommandEvent& event) {
 	if (frame) {
 		PanelManager* m_PanelManager = frame->GetPanelManager();
 
-		m_PanelManager->Switchto(PanelID::Home);
+		m_PanelManager->SwitchToCorePanel(PanelID::Home);
 
 	}
 }

@@ -2,7 +2,7 @@
 
 #include <wx/wx.h>
 #include <memory>
-#include "Helpers\PanelDef.h"
+#include "Helpers\Enum_CorePanel.h"
 
 
 //Panels
@@ -18,21 +18,21 @@ class PanelManager{
 private:
  wxWindow* m_Parent;
  wxSizer* m_Sizer;
- PanelID m_Current = PanelID::None;
- wxPanel* m_ActivePanel = nullptr;
+ PanelID m_CurrentID = PanelID::None;
+ wxPanel* m_ActiveCorePanel = nullptr;
 
 
 public:
 	PanelManager(wxWindow* parent, wxSizer* sizer) : m_Parent(parent), m_Sizer(sizer) {}
 
-	void Switchto(PanelID id) {
+	void SwitchToCorePanel(PanelID id) {
 	
-		if (m_Current == id) return;
+		if (m_CurrentID == id) return;
 
-		if (m_ActivePanel) {
-			m_Sizer->Detach(m_ActivePanel);
-			m_ActivePanel->Destroy();
-			m_ActivePanel=nullptr;
+		if (m_ActiveCorePanel) {
+			m_Sizer->Detach(m_ActiveCorePanel);
+			m_ActiveCorePanel->Destroy();
+			m_ActiveCorePanel=nullptr;
 		}
 
 		switch (id) {
@@ -40,10 +40,10 @@ public:
 	    case PanelID::None:
 			break;
 		case PanelID::Intro:
-			m_ActivePanel = new IntroPanel(m_Parent);
+			m_ActiveCorePanel = new IntroPanel(m_Parent);
 			break;
 		case PanelID::Home:
-			m_ActivePanel = new Cal_HomePanel(m_Parent);
+			m_ActiveCorePanel = new Cal_HomePanel(m_Parent);
 			break;
 			default:
 		    break;
@@ -52,10 +52,10 @@ public:
 	
 	    }
 	
-	 m_Current = id;
+	 m_CurrentID = id;
 
-        if (m_ActivePanel) {
-			m_Sizer->Add(m_ActivePanel, 1, wxEXPAND);
+        if (m_ActiveCorePanel) {
+			m_Sizer->Add(m_ActiveCorePanel, 1, wxEXPAND);
 	        m_Parent->Layout();
 	       
 

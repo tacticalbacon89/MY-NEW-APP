@@ -33,7 +33,7 @@
     <ClInclude Include="Source\Managers\PanelManager.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Helpers\PanelDef.h">
+    <ClInclude Include="Source\Helpers\Enum_CorePanel.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\UI\Panels\IntroPanel.h">
@@ -49,6 +49,12 @@
       <Filter>App\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\UI\Panels\Cal_TopMenu.h">
+      <Filter>App\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Helpers\Enum_Cal_TopMenu.h">
+      <Filter>App\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GladeGen\Cal_Menu_ModeSelect_Base.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -75,6 +81,9 @@
       <Filter>App</Filter>
     </ClCompile>
     <ClCompile Include="Source\UI\Panels\Cal_TopMenu.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="GladeGen\Cal_Menu_ModeSelect_Base.cpp">
       <Filter>App</Filter>
     </ClCompile>
   </ItemGroup>

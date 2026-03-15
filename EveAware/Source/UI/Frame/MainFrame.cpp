@@ -15,7 +15,7 @@ MainFrame::MainFrame(const wxString& title) : wxFrame(nullptr, wxID_ANY, title)
 	
    SetSizer(sizer);
 	
-   m_PanelManager->Switchto(PanelID::Intro);
+   m_PanelManager->SwitchToCorePanel(PanelID::Intro);
 
 	this->Bind(wxEVT_CLOSE_WINDOW, &MainFrame::OnClose, this);
 
