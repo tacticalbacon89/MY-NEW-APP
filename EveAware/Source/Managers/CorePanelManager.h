@@ -73,20 +73,6 @@ public:
 	}
 	
 
-	void SwitchPanelAtIndex (size_t Index,wxPanel* newpanel) {
-
-		wxSizerItem* item = m_Sizer->GetItem(Index);
-		
-		
-		
 	
 	
-	
-	
-	}
-	
-	
-	
- 
-
 };
