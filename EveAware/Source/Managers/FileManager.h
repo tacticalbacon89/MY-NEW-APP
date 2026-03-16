@@ -1,5 +1,6 @@
 #pragma once
 
+//Core
 
 #include <string>
 #include <fstream>
@@ -7,8 +8,11 @@
 #include <type_traits>
 #include <wx/stdpaths.h>
 #include <wx/filename.h>
-#include "wx/wx.h"
-#include "Helpers/ConfigGlobals.h"
+#include <wx/wx.h>
+
+//Helpers
+
+#include "../Helpers/Globals/ConfigGlobals.h"
 
 using namespace std;
 

@@ -3,7 +3,7 @@
 #include <wx/wx.h>
 #include <iostream>
 #include <fstream>
-#include "Helpers/ConfigGlobals.h"
+#include "Helpers/Globals/ConfigGlobals.h"
 #include "Managers/FileManager.h"
 #include <wx/display.h>
 
