@@ -1,19 +1,26 @@
+//Core
 #include "MainFrame.h"
 #include <wx/wx.h>
 #include <iostream>
 #include <fstream>
-#include "Helpers\ConfigGlobals.h"
-#include "Managers\FileManager.h"
-#include "Managers\PanelManager.h"
+
+//Helpers
+#include "../../Helpers/Enums/Enum_CorePanel.h"
+#include "../../Helpers/ConfigGlobals.h"
+
+//Managers
+#include "../../Managers/FileManager.h"
+#include "../../Managers/CorePanelManager.h"
+
 
 
 MainFrame::MainFrame(const wxString& title) : wxFrame(nullptr, wxID_ANY, title)
 {
-	auto* sizer = new wxBoxSizer(wxVERTICAL);
+	auto* Mainsizer = new wxBoxSizer(wxVERTICAL);
 
-	m_PanelManager = std::make_unique<PanelManager>(this, sizer);
+	m_PanelManager = std::make_unique<PanelManager>(this, Mainsizer);
 	
-   SetSizer(sizer);
+   SetSizer(Mainsizer);
 	
    m_PanelManager->SwitchToCorePanel(PanelID::Intro);
 

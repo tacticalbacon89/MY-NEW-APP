@@ -4,8 +4,8 @@
 
 //Panels
 #include "IntroPanel.h"
-#include "../../Managers/PanelManager.h"
-#include "../../Helpers/Enum_CorePanel.h"
+#include "../../Managers/CorePanelManager.h"
+#include "../../Helpers/Enums/Enum_CorePanel.h"
 #include "../Frame/MainFrame.h"
 
 

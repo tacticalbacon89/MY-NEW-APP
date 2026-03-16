@@ -4,13 +4,14 @@
 #include <wx/wx.h>
 #include <memory>
 
-//Enums
-#include "Helpers\Enum_CorePanel.h"
+//Helpers
+
+#include "../Helpers/Enums/Enum_CorePanel.h"
 
 
 //Panels
-#include "UI/Panels\IntroPanel.h"
-#include "UI/Panels\Cal_HomePanel.h"
+#include "../UI/Panels/IntroPanel.h"
+#include "../UI/Panels/Cal_HomePanel.h"
 
 
 
@@ -21,21 +22,21 @@ class PanelManager{
 private:
 //Constructor Variables	
  wxWindow* m_Parent = nullptr;
- wxSizer* m_Sizer = nullptr;
+ wxSizer* m_MainSizer = nullptr;
  //Private Variables
  PanelID m_CurrentID = PanelID::None;
  wxPanel* m_ActiveCorePanel = nullptr;
 
 
 public:
-	PanelManager(wxWindow* parent, wxSizer* sizer) : m_Parent(parent), m_Sizer(sizer) {}
+	PanelManager(wxWindow* parent, wxSizer* sizer) : m_Parent(parent), m_MainSizer(sizer) {}
 
 	void SwitchToCorePanel(PanelID id) {
 	
 		if (m_CurrentID == id) return;
 
 		if (m_ActiveCorePanel) {
-			m_Sizer->Detach(m_ActiveCorePanel);
+			m_MainSizer->Detach(m_ActiveCorePanel);
 			m_ActiveCorePanel->Destroy();
 			m_ActiveCorePanel=nullptr;
 		}
@@ -60,7 +61,7 @@ public:
 	 m_CurrentID = id;
 
         if (m_ActiveCorePanel) {
-			m_Sizer->Add(m_ActiveCorePanel, 1, wxEXPAND);
+			m_MainSizer->Add(m_ActiveCorePanel, 1, wxEXPAND);
 	        m_Parent->Layout();
 	       
 
@@ -71,6 +72,18 @@ public:
 	
 	}
 	
+
+	void SwitchPanelAtIndex (size_t Index,wxPanel* newpanel) {
+
+		wxSizerItem* item = m_Sizer->GetItem(Index);
+		
+		
+		
+	
+	
+	
+	
+	}
 	
 	
 	

@@ -30,10 +30,10 @@
     <ClInclude Include="Source\UI\Frame\MainFrame.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Managers\PanelManager.h">
+    <ClInclude Include="Source\Managers\CorePanelManager.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Helpers\Enum_CorePanel.h">
+    <ClInclude Include="Source\Helpers\Enums\Enum_CorePanel.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\UI\Panels\IntroPanel.h">
@@ -51,10 +51,13 @@
     <ClInclude Include="Source\UI\Panels\Cal_TopMenu.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Helpers\Enum_Cal_TopMenu.h">
+    <ClInclude Include="Source\Helpers\Enums\Enum_Cal_TopMenu.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="GladeGen\Cal_Menu_ModeSelect_Base.h">
+      <Filter>App\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Managers\Cal_MenuPanel_Manager.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
   </ItemGroup>

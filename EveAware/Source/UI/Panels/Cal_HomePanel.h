@@ -11,14 +11,21 @@
 class Cal_HomePanel : public Cal_HomePanel_Base{
   
 public:
-	 Cal_HomePanel(wxWindow* parent, wxWindowID id = wxID_ANY);
+	
+	wxBoxSizer* GetSizerSlot() { return HomePanelSizer; }
+	
+	  
+	  
+	  Cal_HomePanel(wxWindow* parent, wxWindowID id);
+
+	 
 
 	void SwitchMenu(wxPanel* MenuPanel);
 
 	void SwitchContent(wxPanel* ContentPanel);
 
 	
-
+	
 };
 	  
 	  

@@ -11,7 +11,7 @@ Cal_HomePanel::Cal_HomePanel(wxWindow* parent, wxWindowID id) : Cal_HomePanel_Ba
 
 void Cal_HomePanel::SwitchMenu(wxPanel* MenuPanel) {
 
-	wxSizer* TargetSizer = m_TopMenuPanel->GetSizer();
+	wxSizer* TargetSizer = Cal_MenuPanel->GetSizer();
 	
 	
 	
@@ -22,7 +22,7 @@ void Cal_HomePanel::SwitchMenu(wxPanel* MenuPanel) {
 		TargetSizer->Add(MenuPanel, 1, wxEXPAND);
 	
 	
-	   m_TopMenuPanel->Layout();
+	   Cal_MenuPanel->Layout();
 	   this->Layout();
 	}
 	
@@ -35,7 +35,7 @@ void Cal_HomePanel::SwitchMenu(wxPanel* MenuPanel) {
 void Cal_HomePanel::SwitchContent(wxPanel* ContentPanel) {
 
 
-	wxSizer* TargetSizer = m_ContentPanel->GetSizer();
+	wxSizer* TargetSizer = Cal_ContentPanel->GetSizer();
 
 
 	if (TargetSizer) {
@@ -45,7 +45,7 @@ void Cal_HomePanel::SwitchContent(wxPanel* ContentPanel) {
 		TargetSizer->Add(ContentPanel, 1, wxEXPAND);
 		
 		
-		m_ContentPanel->Layout();
+		Cal_ContentPanel->Layout();
 		this->Layout();
 	}
 }

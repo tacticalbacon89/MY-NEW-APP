@@ -9,38 +9,32 @@
 //  g++ main.cpp `wx-config --cxxflags --libs` -o MyApp Dialog1.cpp Frame1.cpp
 //
 
-#ifndef CAL_HOMEPANEL_BASE_H
-#define CAL_HOMEPANEL_BASE_H
+#ifndef CAL_MENU_DEFAULT_BASE_H
+#define CAL_MENU_DEFAULT_BASE_H
 
 #include <wx/wx.h>
 #include <wx/image.h>
 
 // begin wxGlade: ::dependencies
-#include <wx/statline.h>
-#include "Cal_ContentPanel_Base.h"
-#include "Cal_Menu_Default_Base.h"
 // end wxGlade
 
 // begin wxGlade: ::extracode
 // end wxGlade
 
 
-class Cal_HomePanel_Base: public wxPanel {
+class Cal_Menu_Default_Base: public wxPanel {
 public:
-    // begin wxGlade: Cal_HomePanel_Base::ids
+    // begin wxGlade: Cal_Menu_Default_Base::ids
     // end wxGlade
 
-    Cal_HomePanel_Base(wxWindow* parent, wxWindowID id, const wxPoint& pos=wxDefaultPosition, const wxSize& size=wxDefaultSize, long style=0);
+    Cal_Menu_Default_Base(wxWindow* parent, wxWindowID id, const wxPoint& pos=wxDefaultPosition, const wxSize& size=wxDefaultSize, long style=0);
 
 private:
 
 protected:
-    // begin wxGlade: Cal_HomePanel_Base::attributes
-    wxBoxSizer* HomePanelSizer;
-    Cal_Menu_Default_Base* Cal_MenuPanel;
-    Cal_ContentPanel_Base* Cal_ContentPanel;
+    // begin wxGlade: Cal_Menu_Default_Base::attributes
     // end wxGlade
 }; // wxGlade: end class
 
 
-#endif // CAL_HOMEPANEL_BASE_H
+#endif // CAL_MENU_DEFAULT_BASE_H
