@@ -11,12 +11,14 @@
 class Cal_HomePanel : public Cal_HomePanel_Base{
   
 public:
+	Cal_HomePanel(wxWindow* parent, wxWindowID id);
 	
+	
+	  
+	  
 	wxBoxSizer* GetSizerSlot() { return HomePanelSizer; }
-	
-	  
-	  
-	  Cal_HomePanel(wxWindow* parent, wxWindowID id);
+
+
 
 	 
 
