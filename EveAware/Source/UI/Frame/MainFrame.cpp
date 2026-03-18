@@ -6,7 +6,7 @@
 
 //Helpers
 #include "../../Helpers/Enums/Enum_CorePanel.h"
-#include "../../Helpers/ConfigGlobals.h"
+#include "../../Helpers/Globals/ConfigGlobals.h"
 
 //Managers
 #include "../../Managers/FileManager.h"

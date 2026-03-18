@@ -45,9 +45,6 @@
     <ClInclude Include="GladeGen\Cal_HomePanel_Base.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\UI\Panels\Cal_HomePanel.h">
-      <Filter>App\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Source\Helpers\Enums\Enum_Cal_TopMenu.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
@@ -55,6 +52,9 @@
       <Filter>App\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\Managers\Cal_MenuPanel_Manager.h">
+      <Filter>App\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\Panels\Cal_HomePanel.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -77,15 +77,11 @@
     <ClCompile Include="GladeGen\Cal_HomePanel_Base.cpp">
       <Filter>App</Filter>
     </ClCompile>
-    <ClCompile Include="Source\UI\Panels\Cal_HomePanel.cpp">
-      <Filter>App</Filter>
-    </ClCompile>
     <ClCompile Include="GladeGen\Cal_Menu_ModeSelect_Base.cpp">
       <Filter>App</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\GladeDesign\IntroPanel_Base.wxg" />
-    <None Include="Resources\GladeDesign\HomePanel_Base.wxg" />
+    <ClCompile Include="Source\UI\Panels\Cal_HomePanel.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
