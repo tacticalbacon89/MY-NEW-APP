@@ -39,16 +39,16 @@
     <ClInclude Include="Source\UI\Panels\IntroPanel.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GladeGen\IntroPanel_Base.h">
+    <ClInclude Include="Source\UI\BasePanels\IntroPanel_Base.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GladeGen\Cal_HomePanel_Base.h">
+    <ClInclude Include="Source\UI\BasePanels\Cal_HomePanel_Base.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\Helpers\Enums\Enum_Cal_TopMenu.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GladeGen\Cal_Menu_ModeSelect_Base.h">
+    <ClInclude Include="Source\UI\BasePanels\Cal_Menu_ModeSelect_Base.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\Managers\Cal_MenuPanel_Manager.h">
@@ -71,17 +71,31 @@
     <ClCompile Include="Source\UI\Panels\IntroPanel.cpp">
       <Filter>App</Filter>
     </ClCompile>
-    <ClCompile Include="GladeGen\IntroPanel_Base.cpp">
+    <ClCompile Include="Source\UI\BasePanels\IntroPanel_Base.cpp">
       <Filter>App</Filter>
     </ClCompile>
-    <ClCompile Include="GladeGen\Cal_HomePanel_Base.cpp">
+    <ClCompile Include="Source\UI\BasePanels\Cal_HomePanel_Base.cpp">
       <Filter>App</Filter>
     </ClCompile>
-    <ClCompile Include="GladeGen\Cal_Menu_ModeSelect_Base.cpp">
+    <ClCompile Include="Source\UI\BasePanels\Cal_Menu_ModeSelect_Base.cpp">
       <Filter>App</Filter>
     </ClCompile>
     <ClCompile Include="Source\UI\Panels\Cal_HomePanel.cpp">
       <Filter>App</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Textures\Back_icon.png">
+      <Filter>UI</Filter>
+    </Image>
+    <Image Include="Resources\Textures\Buttion test2.png">
+      <Filter>UI</Filter>
+    </Image>
+    <Image Include="Resources\Textures\ShieldRepButtonClicked.png">
+      <Filter>UI</Filter>
+    </Image>
+    <Image Include="Resources\Textures\ShieldRepFocus.png">
+      <Filter>UI</Filter>
+    </Image>
   </ItemGroup>
 </Project>

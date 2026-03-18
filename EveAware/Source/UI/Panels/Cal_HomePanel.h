@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../../../GladeGen/Cal_HomePanel_Base.h"
+#include "../BasePanels/Cal_HomePanel_Base.h"
 
 
 
