@@ -15,6 +15,7 @@
 
 class Cal_MenuPanel_Manager {
 
+
 private:
 	wxWindow* m_parent = nullptr;
 	wxSizer* m_targetSizer = nullptr;
@@ -24,12 +25,11 @@ private:
 
 
 public:
-	Cal_MenuPanel_Manager(wxWindow* parent, wxSizer* Menusizer): m_parent(parent), m_targetSizer(Menusizer) {
+	Cal_MenuPanel_Manager(wxWindow* parent, wxSizer* Menusizer = nullptr): m_parent(parent), m_targetSizer(Menusizer) {
 	
 	};
 
-/*
-	void SwitchMenuPanel( CalTopMenu newID) {
+	/* void SwitchMenuPanel(CalTopMenu newID) {
          
 		wxSizerItem* item = m_targetSizer->GetItem(1);
 
@@ -63,7 +63,7 @@ public:
 
 
 	}
-*/
+	*/
 
 
 
