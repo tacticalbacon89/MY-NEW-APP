@@ -25,8 +25,9 @@ bool App::OnInit()
 	
  //================================================================================
  //                                INITIALIZATION                                //
-	
- FileManager::UploadWindowConfig("App_Config.txt", G_WindowConfig);
+	wxInitAllImageHandlers();
+ 
+	FileManager::UploadWindowConfig("App_Config.txt", G_WindowConfig);
 	
  MainAppFrame = new MainFrame("EveAware");
 	
