@@ -97,23 +97,23 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Source\UI\BasePanels\Resources\Textures\Back_icon.png">
+    <CopyFileToFolders Include="Source\UI\BasePanels\Assets\Bitmap\Back_icon.png">
       <Filter>UI</Filter>
-    </Image>
-    <Image Include="Source\UI\BasePanels\Resources\Textures\Missle_Damage_Button.png">
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Source\UI\BasePanels\Assets\Bitmap\Missle_Damage_Button.png">
       <Filter>UI</Filter>
-    </Image>
-    <Image Include="Source\UI\BasePanels\Resources\Textures\Missle_Damage_Button_Clicked.png">
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Source\UI\BasePanels\Assets\Bitmap\Missle_Damage_Button_Clicked.png">
       <Filter>UI</Filter>
-    </Image>
-    <Image Include="Source\UI\BasePanels\Resources\Textures\Shield_Reps_Button.png">
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Source\UI\BasePanels\Assets\Bitmap\Shield_Reps_Button.png">
       <Filter>UI</Filter>
-    </Image>
-    <Image Include="Source\UI\BasePanels\Resources\Textures\TurretDmg_Button.png">
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Source\UI\BasePanels\Assets\Bitmap\TurretDmg_Button.png">
       <Filter>UI</Filter>
-    </Image>
-    <Image Include="Source\UI\BasePanels\Resources\Textures\TurretDmg_Button_Clicked.png">
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Source\UI\BasePanels\Assets\Bitmap\TurretDmg_Button_Clicked.png">
       <Filter>UI</Filter>
-    </Image>
+    </CopyFileToFolders>
   </ItemGroup>
 </Project>

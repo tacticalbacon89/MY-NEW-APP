@@ -18,7 +18,7 @@ Cal_CorePanel_Base::Cal_CorePanel_Base( wxWindow* parent, wxWindowID id, const w
 
 	m_bpButton3 = new wxBitmapButton( this, wxID_ANY, wxNullBitmap, wxDefaultPosition, wxDefaultSize, wxBU_AUTODRAW|wxBORDER_NONE );
 
-	m_bpButton3->SetBitmap( wxBitmap( wxT("Resources/Textures/Back_icon.png"), wxBITMAP_TYPE_ANY ) );
+	m_bpButton3->SetBitmap( wxBitmap( wxT("Assets/Bitmap/Back_icon.png"), wxBITMAP_TYPE_ANY ) );
 	m_bpButton3->SetBackgroundColour( wxSystemSettings::GetColour( wxSYS_COLOUR_3DDKSHADOW ) );
 
 	Cal_CoreLayoutSizer->Add( m_bpButton3, 0, wxALL, 5 );
@@ -83,16 +83,16 @@ Cal_CorePanel_Base::Cal_CorePanel_Base( wxWindow* parent, wxWindowID id, const w
 
 	m_MissleDamageButton = new wxBitmapButton( m_MenuPanel, wxID_ANY, wxNullBitmap, wxPoint( -1,-1 ), wxDefaultSize, wxBU_AUTODRAW|wxBORDER_NONE );
 
-	m_MissleDamageButton->SetBitmap( wxBitmap( wxT("Resources/Textures/Missle_Damage_Button.png"), wxBITMAP_TYPE_ANY ) );
-	m_MissleDamageButton->SetBitmapPressed( wxBitmap( wxT("Resources/Textures/Missle_Damage_Button_Clicked.png"), wxBITMAP_TYPE_ANY ) );
+	m_MissleDamageButton->SetBitmap( wxBitmap( wxT("Assets/Bitmap/Missle_Damage_Button.png"), wxBITMAP_TYPE_ANY ) );
+	m_MissleDamageButton->SetBitmapPressed( wxBitmap( wxT("Assets/Bitmap/Missle_Damage_Button_Clicked.png"), wxBITMAP_TYPE_ANY ) );
 	m_MissleDamageButton->SetBackgroundColour( wxSystemSettings::GetColour( wxSYS_COLOUR_BTNSHADOW ) );
 
 	MenuContentButtonSizer->Add( m_MissleDamageButton, 0, wxALL, 5 );
 
 	m_TurretDamageButton = new wxBitmapButton( m_MenuPanel, wxID_ANY, wxNullBitmap, wxDefaultPosition, wxDefaultSize, wxBU_AUTODRAW|wxBORDER_NONE );
 
-	m_TurretDamageButton->SetBitmap( wxBitmap( wxT("Resources/Textures/TurretDmg_Button.png"), wxBITMAP_TYPE_ANY ) );
-	m_TurretDamageButton->SetBitmapPressed( wxBitmap( wxT("Resources/Textures/TurretDmg_Button_Clicked.png"), wxBITMAP_TYPE_ANY ) );
+	m_TurretDamageButton->SetBitmap( wxBitmap( wxT("Assets/Bitmap/TurretDmg_Button.png"), wxBITMAP_TYPE_ANY ) );
+	m_TurretDamageButton->SetBitmapPressed( wxBitmap( wxT("Assets/Bitmap/TurretDmg_Button_Clicked.png"), wxBITMAP_TYPE_ANY ) );
 	m_TurretDamageButton->SetBackgroundColour( wxSystemSettings::GetColour( wxSYS_COLOUR_BTNSHADOW ) );
 
 	MenuContentButtonSizer->Add( m_TurretDamageButton, 0, wxALL, 5 );
@@ -102,7 +102,7 @@ Cal_CorePanel_Base::Cal_CorePanel_Base( wxWindow* parent, wxWindowID id, const w
 
 	m_ShieldRepsButton = new wxBitmapButton( m_MenuPanel, wxID_ANY, wxNullBitmap, wxDefaultPosition, wxDefaultSize, wxBU_AUTODRAW|wxBORDER_NONE );
 
-	m_ShieldRepsButton->SetBitmap( wxBitmap( wxT("Resources/Textures/Shield_Reps_Button.png"), wxBITMAP_TYPE_ANY ) );
+	m_ShieldRepsButton->SetBitmap( wxBitmap( wxT("Assets/Bitmap/Shield_Reps_Button.png"), wxBITMAP_TYPE_ANY ) );
 	m_ShieldRepsButton->SetBitmapPressed( wxNullBitmap );
 	m_ShieldRepsButton->SetBackgroundColour( wxSystemSettings::GetColour( wxSYS_COLOUR_BTNSHADOW ) );
 
