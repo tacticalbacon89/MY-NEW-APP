@@ -361,3 +361,10 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/EveAware/Source/UI/BasePanels/Resources/Textures/Back_icon.png
+/EveAware/Source/UI/BasePanels/Resources/Textures/Back_icon.png
+/EveAware/Source/UI/BasePanels/Resources/Textures/Missle_Damage_Button.png
+/EveAware/Source/UI/BasePanels/Resources/Textures/Missle_Damage_Button_Clicked.png
+/EveAware/Source/UI/BasePanels/Resources/Textures/Shield_Reps_Button.png
+/EveAware/Source/UI/BasePanels/Resources/Textures/TurretDmg_Button.png
+/EveAware/Source/UI/BasePanels/Resources/Textures/TurretDmg_Button_Clicked.png
