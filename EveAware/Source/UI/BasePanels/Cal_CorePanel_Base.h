@@ -35,7 +35,7 @@ class Cal_CorePanel_Base : public wxPanel
 	private:
 
 	protected:
-		wxBitmapButton* m_bpButton3;
+		wxBitmapButton* m_BackButton;
 		wxPanel* m_MenuBorderColorPanel;
 		wxPanel* m_MenuPanel;
 		wxStaticText* SelectionPrompt;
@@ -47,6 +47,10 @@ class Cal_CorePanel_Base : public wxPanel
 		wxPanel* m_ContentBorderColorPanel;
 		wxScrolledWindow* m_ContentScrollWin;
 		wxPanel* m_ContentPanel;
+
+		// Virtual event handlers, override them in your derived class
+		virtual void OnCal_BackButton( wxCommandEvent& event ) { event.Skip(); }
+
 
 	public:
 

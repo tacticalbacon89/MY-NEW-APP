@@ -16,12 +16,12 @@ Cal_CorePanel_Base::Cal_CorePanel_Base( wxWindow* parent, wxWindowID id, const w
 	wxBoxSizer* Cal_CoreLayoutSizer;
 	Cal_CoreLayoutSizer = new wxBoxSizer( wxVERTICAL );
 
-	m_bpButton3 = new wxBitmapButton( this, wxID_ANY, wxNullBitmap, wxDefaultPosition, wxDefaultSize, wxBU_AUTODRAW|wxBORDER_NONE );
+	m_BackButton = new wxBitmapButton( this, wxID_ANY, wxNullBitmap, wxDefaultPosition, wxDefaultSize, wxBU_AUTODRAW|wxBORDER_NONE );
 
-	m_bpButton3->SetBitmap( wxBitmap( wxT("Assets/Bitmap/Back_icon.png"), wxBITMAP_TYPE_ANY ) );
-	m_bpButton3->SetBackgroundColour( wxSystemSettings::GetColour( wxSYS_COLOUR_3DDKSHADOW ) );
+	m_BackButton->SetBitmap( wxBitmap( wxT("Assets/Bitmap/Back_icon.png"), wxBITMAP_TYPE_ANY ) );
+	m_BackButton->SetBackgroundColour( wxSystemSettings::GetColour( wxSYS_COLOUR_3DDKSHADOW ) );
 
-	Cal_CoreLayoutSizer->Add( m_bpButton3, 0, wxALL, 5 );
+	Cal_CoreLayoutSizer->Add( m_BackButton, 0, wxALL, 5 );
 
 	m_MenuBorderColorPanel = new wxPanel( this, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL );
 	m_MenuBorderColorPanel->SetBackgroundColour( wxSystemSettings::GetColour( wxSYS_COLOUR_BTNTEXT ) );
@@ -163,6 +163,9 @@ Cal_CorePanel_Base::Cal_CorePanel_Base( wxWindow* parent, wxWindowID id, const w
 
 	this->SetSizer( Cal_CoreLayoutSizer );
 	this->Layout();
+
+	// Connect Events
+	m_BackButton->Connect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( Cal_CorePanel_Base::OnCal_BackButton ), NULL, this );
 }
 
 Cal_CorePanel_Base::~Cal_CorePanel_Base()
