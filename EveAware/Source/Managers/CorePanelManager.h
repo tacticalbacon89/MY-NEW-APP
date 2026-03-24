@@ -49,6 +49,9 @@ public:
 		case PanelID::Intro:
 			m_ActiveCorePanel = new IntroPanel(m_Parent);
 			break;
+        case PanelID::Calculators:
+			m_ActiveCorePanel = new Cal_HomePanel(m_Parent);
+			break;
 		case PanelID::Home:
 			m_ActiveCorePanel = new Cal_CorePanel(m_Parent);
 			break;
