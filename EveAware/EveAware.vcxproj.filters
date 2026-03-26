@@ -54,9 +54,6 @@
     <ClInclude Include="Source\Managers\Cal_MenuPanel_Manager.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\UI\Panels\Cal_HomePanel.h">
-      <Filter>App\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Source\UI\BasePanels\Cal_CorePanel_Base.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
@@ -86,9 +83,6 @@
     <ClCompile Include="Source\UI\BasePanels\Cal_Menu_ModeSelect_Base.cpp">
       <Filter>App</Filter>
     </ClCompile>
-    <ClCompile Include="Source\UI\Panels\Cal_HomePanel.cpp">
-      <Filter>App</Filter>
-    </ClCompile>
     <ClCompile Include="Source\UI\BasePanels\Cal_CorePanel_Base.cpp">
       <Filter>App</Filter>
     </ClCompile>
@@ -97,23 +91,23 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CopyFileToFolders Include="Source\UI\BasePanels\Assets\Bitmap\Back_icon.png">
+    <Image Include="Source\UI\BasePanels\Assets\Bitmap\Back_icon.png">
       <Filter>UI</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="Source\UI\BasePanels\Assets\Bitmap\Missle_Damage_Button.png">
+    </Image>
+    <Image Include="Source\UI\BasePanels\Assets\Bitmap\Missle_Damage_Button.png">
       <Filter>UI</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="Source\UI\BasePanels\Assets\Bitmap\Missle_Damage_Button_Clicked.png">
+    </Image>
+    <Image Include="Source\UI\BasePanels\Assets\Bitmap\Missle_Damage_Button_Clicked.png">
       <Filter>UI</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="Source\UI\BasePanels\Assets\Bitmap\Shield_Reps_Button.png">
+    </Image>
+    <Image Include="Source\UI\BasePanels\Assets\Bitmap\Shield_Reps_Button.png">
       <Filter>UI</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="Source\UI\BasePanels\Assets\Bitmap\TurretDmg_Button.png">
+    </Image>
+    <Image Include="Source\UI\BasePanels\Assets\Bitmap\TurretDmg_Button.png">
       <Filter>UI</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="Source\UI\BasePanels\Assets\Bitmap\TurretDmg_Button_Clicked.png">
+    </Image>
+    <Image Include="Source\UI\BasePanels\Assets\Bitmap\TurretDmg_Button_Clicked.png">
       <Filter>UI</Filter>
-    </CopyFileToFolders>
+    </Image>
   </ItemGroup>
 </Project>
