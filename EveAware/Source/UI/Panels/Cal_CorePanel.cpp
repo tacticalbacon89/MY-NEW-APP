@@ -16,7 +16,7 @@ void Cal_CorePanel::OnCal_BackButton(wxCommandEvent& event) {
 	if (frame) {
 		PanelManager* m_PanelManager = frame->GetPanelManager();
 
-		m_PanelManager->SwitchToCorePanel(PanelID::Intro);
+		m_PanelManager->SwitchToCorePanel(PanelID::Home);
 
 	}
 

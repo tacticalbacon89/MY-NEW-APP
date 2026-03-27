@@ -42,13 +42,7 @@
     <ClInclude Include="Source\UI\BasePanels\IntroPanel_Base.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\UI\BasePanels\Cal_HomePanel_Base.h">
-      <Filter>App\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Source\Helpers\Enums\Enum_Cal_TopMenu.h">
-      <Filter>App\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\UI\BasePanels\Cal_Menu_ModeSelect_Base.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\Managers\Cal_MenuPanel_Manager.h">
@@ -58,6 +52,12 @@
       <Filter>App\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\UI\Panels\Cal_CorePanel.h">
+      <Filter>App\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\BasePanels\HomePanel_Base.h">
+      <Filter>App\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\Panels\HomePanel.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -77,37 +77,43 @@
     <ClCompile Include="Source\UI\BasePanels\IntroPanel_Base.cpp">
       <Filter>App</Filter>
     </ClCompile>
-    <ClCompile Include="Source\UI\BasePanels\Cal_HomePanel_Base.cpp">
-      <Filter>App</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\UI\BasePanels\Cal_Menu_ModeSelect_Base.cpp">
-      <Filter>App</Filter>
-    </ClCompile>
     <ClCompile Include="Source\UI\BasePanels\Cal_CorePanel_Base.cpp">
       <Filter>App</Filter>
     </ClCompile>
     <ClCompile Include="Source\UI\Panels\Cal_CorePanel.cpp">
       <Filter>App</Filter>
     </ClCompile>
+    <ClCompile Include="Source\UI\BasePanels\HomePanel_Base.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\Panels\HomePanel.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Source\UI\BasePanels\Assets\Bitmap\Back_icon.png">
+    <CopyFileToFolders Include="Source\UI\BasePanels\Assets\Bitmap\Back_icon.png">
       <Filter>UI</Filter>
-    </Image>
-    <Image Include="Source\UI\BasePanels\Assets\Bitmap\Missle_Damage_Button.png">
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Source\UI\BasePanels\Assets\Bitmap\Missle_Damage_Button.png">
       <Filter>UI</Filter>
-    </Image>
-    <Image Include="Source\UI\BasePanels\Assets\Bitmap\Missle_Damage_Button_Clicked.png">
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Source\UI\BasePanels\Assets\Bitmap\Missle_Damage_Button_Clicked.png">
       <Filter>UI</Filter>
-    </Image>
-    <Image Include="Source\UI\BasePanels\Assets\Bitmap\Shield_Reps_Button.png">
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Source\UI\BasePanels\Assets\Bitmap\Shield_Reps_Button.png">
       <Filter>UI</Filter>
-    </Image>
-    <Image Include="Source\UI\BasePanels\Assets\Bitmap\TurretDmg_Button.png">
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Source\UI\BasePanels\Assets\Bitmap\TurretDmg_Button.png">
       <Filter>UI</Filter>
-    </Image>
-    <Image Include="Source\UI\BasePanels\Assets\Bitmap\TurretDmg_Button_Clicked.png">
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Source\UI\BasePanels\Assets\Bitmap\TurretDmg_Button_Clicked.png">
       <Filter>UI</Filter>
-    </Image>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Source\UI\BasePanels\Assets\Bitmap\Home_CombatButton.png">
+      <Filter>UI</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Source\UI\BasePanels\Assets\Bitmap\Home_MarketButton.png">
+      <Filter>UI</Filter>
+    </CopyFileToFolders>
   </ItemGroup>
 </Project>
