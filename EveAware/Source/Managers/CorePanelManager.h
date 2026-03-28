@@ -10,7 +10,7 @@
 
 
 //Panels
-#include "../UI/Panels/IntroPanel.h"
+
 #include "../UI/Panels/Cal_CombatPanel.h"
 #include "../UI/Panels/HomePanel.h"
 
@@ -46,14 +46,13 @@ public:
 		
 	    case PanelID::None:
 			break;
-		case PanelID::Intro: m_ActiveCorePanel = new IntroPanel(m_Parent);
-			break;
 		case PanelID::Cal_Combat: m_ActiveCorePanel = new Cal_CombatPanel(m_Parent);
 			break;
 		case PanelID::Home: m_ActiveCorePanel = new HomePanel(m_Parent);
 			break;
 			default:
 		    break;
+	
 			
 		
 		

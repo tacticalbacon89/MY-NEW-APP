@@ -54,6 +54,9 @@
     <ClInclude Include="Source\UI\BasePanels\Cal_CombatPanel_Base.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Source\UI\BasePanels\IntroPanel_Base.h">
+      <Filter>App\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\App.cpp">
@@ -75,6 +78,9 @@
       <Filter>App</Filter>
     </ClCompile>
     <ClCompile Include="Source\UI\BasePanels\Cal_CombatPanel_Base.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\BasePanels\IntroPanel_Base.cpp">
       <Filter>App</Filter>
     </ClCompile>
   </ItemGroup>
@@ -103,5 +109,8 @@
     <CopyFileToFolders Include="Source\UI\BasePanels\Assets\Bitmap\Home_MarketButton.png">
       <Filter>UI</Filter>
     </CopyFileToFolders>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vcpkg.json" />
   </ItemGroup>
 </Project>
