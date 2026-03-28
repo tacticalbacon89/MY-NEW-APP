@@ -22,7 +22,7 @@ MainFrame::MainFrame(const wxString& title) : wxFrame(nullptr, wxID_ANY, title)
 	
    SetSizer(Mainsizer);
 	
-   m_PanelManager->SwitchToCorePanel(PanelID::Intro);
+   m_PanelManager->SwitchToCorePanel(PanelID::Home);
 
 	this->Bind(wxEVT_CLOSE_WINDOW, &MainFrame::OnClose, this);
 

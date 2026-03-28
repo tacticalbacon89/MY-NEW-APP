@@ -28,9 +28,9 @@
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////////
-/// Class Cal_CorePanel_Base
+/// Class Cal_CombatPanel_Base
 ///////////////////////////////////////////////////////////////////////////////
-class Cal_CorePanel_Base : public wxPanel
+class Cal_CombatPanel_Base : public wxPanel
 {
 	private:
 
@@ -54,9 +54,9 @@ class Cal_CorePanel_Base : public wxPanel
 
 	public:
 
-		Cal_CorePanel_Base( wxWindow* parent, wxWindowID id = wxID_ANY, const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 942,761 ), long style = wxTAB_TRAVERSAL, const wxString& name = wxEmptyString );
+		Cal_CombatPanel_Base( wxWindow* parent, wxWindowID id = wxID_ANY, const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 942,761 ), long style = wxTAB_TRAVERSAL, const wxString& name = wxEmptyString );
 
-		~Cal_CorePanel_Base();
+		~Cal_CombatPanel_Base();
 
 };
 

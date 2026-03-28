@@ -11,7 +11,7 @@
 
 //Panels
 #include "../UI/Panels/IntroPanel.h"
-#include "../UI/Panels/Cal_CorePanel.h"
+#include "../UI/Panels/Cal_CombatPanel.h"
 #include "../UI/Panels/HomePanel.h"
 
 
@@ -48,7 +48,7 @@ public:
 			break;
 		case PanelID::Intro: m_ActiveCorePanel = new IntroPanel(m_Parent);
 			break;
-		case PanelID::Cal_Combat: m_ActiveCorePanel = new Cal_CorePanel(m_Parent);
+		case PanelID::Cal_Combat: m_ActiveCorePanel = new Cal_CombatPanel(m_Parent);
 			break;
 		case PanelID::Home: m_ActiveCorePanel = new HomePanel(m_Parent);
 			break;

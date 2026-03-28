@@ -5,11 +5,11 @@
 // PLEASE DO *NOT* EDIT THIS FILE!
 ///////////////////////////////////////////////////////////////////////////
 
-#include "Cal_CorePanel_Base.h"
+#include "Cal_CombatPanel_Base.h"
 
 ///////////////////////////////////////////////////////////////////////////
 
-Cal_CorePanel_Base::Cal_CorePanel_Base( wxWindow* parent, wxWindowID id, const wxPoint& pos, const wxSize& size, long style, const wxString& name ) : wxPanel( parent, id, pos, size, style, name )
+Cal_CombatPanel_Base::Cal_CombatPanel_Base( wxWindow* parent, wxWindowID id, const wxPoint& pos, const wxSize& size, long style, const wxString& name ) : wxPanel( parent, id, pos, size, style, name )
 {
 	this->SetBackgroundColour( wxSystemSettings::GetColour( wxSYS_COLOUR_GRAYTEXT ) );
 
@@ -165,9 +165,9 @@ Cal_CorePanel_Base::Cal_CorePanel_Base( wxWindow* parent, wxWindowID id, const w
 	this->Layout();
 
 	// Connect Events
-	m_BackButton->Connect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( Cal_CorePanel_Base::OnCal_BackButton ), NULL, this );
+	m_BackButton->Connect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( Cal_CombatPanel_Base::OnCal_BackButton ), NULL, this );
 }
 
-Cal_CorePanel_Base::~Cal_CorePanel_Base()
+Cal_CombatPanel_Base::~Cal_CombatPanel_Base()
 {
 }

@@ -48,16 +48,16 @@
     <ClInclude Include="Source\Managers\Cal_MenuPanel_Manager.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\UI\BasePanels\Cal_CorePanel_Base.h">
-      <Filter>App\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\UI\Panels\Cal_CorePanel.h">
+    <ClInclude Include="Source\UI\Panels\Cal_CombatPanel.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\UI\BasePanels\HomePanel_Base.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\UI\Panels\HomePanel.h">
+      <Filter>App\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\BasePanels\Cal_CombatPanel_Base.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -77,16 +77,16 @@
     <ClCompile Include="Source\UI\BasePanels\IntroPanel_Base.cpp">
       <Filter>App</Filter>
     </ClCompile>
-    <ClCompile Include="Source\UI\BasePanels\Cal_CorePanel_Base.cpp">
-      <Filter>App</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\UI\Panels\Cal_CorePanel.cpp">
+    <ClCompile Include="Source\UI\Panels\Cal_CombatPanel.cpp">
       <Filter>App</Filter>
     </ClCompile>
     <ClCompile Include="Source\UI\BasePanels\HomePanel_Base.cpp">
       <Filter>App</Filter>
     </ClCompile>
     <ClCompile Include="Source\UI\Panels\HomePanel.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\BasePanels\Cal_CombatPanel_Base.cpp">
       <Filter>App</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,7 +1,7 @@
-#include "Cal_CorePanel.h"
+#include "Cal_CombatPanel.h"
 #include "../Frame/MainFrame.h"
 
-Cal_CorePanel::Cal_CorePanel(wxWindow* parent) : Cal_CorePanel_Base(parent) {
+Cal_CombatPanel::Cal_CombatPanel(wxWindow* parent) : Cal_CombatPanel_Base(parent) {
 
 
 
@@ -9,7 +9,7 @@ Cal_CorePanel::Cal_CorePanel(wxWindow* parent) : Cal_CorePanel_Base(parent) {
 
 }
 
-void Cal_CorePanel::OnCal_BackButton(wxCommandEvent& event) {
+void Cal_CombatPanel::OnCal_BackButton(wxCommandEvent& event) {
 
 	MainFrame* frame = (MainFrame*)wxTheApp->GetTopWindow();
 
