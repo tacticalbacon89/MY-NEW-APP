@@ -53,6 +53,6 @@ class HomePanel_Base : public wxPanel
 		HomePanel_Base( wxWindow* parent, wxWindowID id = wxID_ANY, const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 1400,700 ), long style = wxTAB_TRAVERSAL, const wxString& name = wxEmptyString );
 
 		~HomePanel_Base();
-
+		
 };
 

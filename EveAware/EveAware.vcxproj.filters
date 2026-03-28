@@ -36,12 +36,6 @@
     <ClInclude Include="Source\Helpers\Enums\Enum_CorePanel.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\UI\Panels\IntroPanel.h">
-      <Filter>App\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\UI\BasePanels\IntroPanel_Base.h">
-      <Filter>App\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Source\Helpers\Enums\Enum_Cal_TopMenu.h">
       <Filter>App\Header Files</Filter>
     </ClInclude>
@@ -70,12 +64,6 @@
     </ClCompile>
     <ClCompile Include="Source\UI\Frame\MainFrame.cpp">
       <Filter>App\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\UI\Panels\IntroPanel.cpp">
-      <Filter>App</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\UI\BasePanels\IntroPanel_Base.cpp">
-      <Filter>App</Filter>
     </ClCompile>
     <ClCompile Include="Source\UI\Panels\Cal_CombatPanel.cpp">
       <Filter>App</Filter>
